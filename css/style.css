@@ -74,3 +74,8 @@ h1{
     height: auto;
     border-radius: 8px;
 }
+.cards-carta .card h3 {
+    margin-top: 10px;
+    text-align: end;
+    color: #112331;
+}
