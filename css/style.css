@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0ddaa;
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    background-color: #59b390;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 5vh;
+}
+header h2{
+    padding-top: 10px;
+}
+
+
+.cards-carta{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    color: #152b3c;
+
+}
+
+.cards-carta .card:hover{
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.15) 
+    0px 5px 15px;
+}
+
+h1{
+    color: #152b3c;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+.cards-carta .card{
+
+    border-radius: 8px;
+    background-color: #59b390;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 1.5s ease;
+
+}
+
+.cards-carta .card h4{
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards-carta .card li{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.cards-carta .card p{
+    font-style: italic;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.cards-carta .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
